@@ -32,7 +32,7 @@ Received from an OSC app/device at : <div id="status"></div>
 <script src="http://127.0.0.1:8081/socket.io/socket.io.js"></script>
 
 <script>
-   var socket = io('http://127.0.0.1:8081');
+   var socket = io('https://elpueblodechina.github.io:8081/osc_p5.js/socket.io.js');
    socket.on('connect', function() {
         // sends to socket.io server the host/port of oscServer
         // and oscClient
